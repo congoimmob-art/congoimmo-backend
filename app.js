@@ -1,6 +1,11 @@
-const express = require("express");
-const cors = require("cors");
-const dotenv = require("dotenv");
+const express = require("express");coprocess.on('uncaughtException', (err) => {
+  console.log("=== ERREUR CRITIQUE DÉTECTÉE ===");
+  console.log(err.name, err.message);
+  console.log(err.stack);
+  process.exit(1);
+});
+constonst cors = require("cors");
+const dotenv = require("const);
 
 // Assurez-vous que vos dossiers s'appellent bien "config" et "routes" en minuscules sur GitHub
 const connectDB = require("./config/db");
