@@ -1,11 +1,31 @@
-PORT=5000
+# CongoImmo Backend
 
-MONGO_URI=mongodb+srv://<db_username>:<db_password>@congoimmodb.erpg1mz.mongodb.net/
+Backend Node.js + Express + MongoDB Atlas pour la plateforme immobilière CongoImmo.
 
-JWT_SECRET=change-moi-par-une-cle-secrete-tres-longue
+## Technologies
 
-CLOUDINARY_CLOUD_NAME=xxxxxxxx
+- Node.js
+- Express
+- MongoDB Atlas
+- Cloudinary
+- JWT Authentication
+- Render
 
-CLOUDINARY_API_KEY=xxxxxxxx
+## Installation
 
-CLOUDINARY_API_SECRET=xxxxxxxx# congoimmo-backend
+npm install
+
+## Lancement local
+
+npm start
+
+## Variables d'environnement
+
+Créer un fichier .env :
+
+PORT=
+MONGO_URI=
+JWT_SECRET=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
